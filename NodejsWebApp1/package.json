@@ -1,0 +1,33 @@
+{
+  "name": "wcip",
+  "version": "0.0.0",
+  "description": "WCIP",
+  "main": "server.js",
+  "presets": [ "minify" ],
+  "babel": {
+    "plugins": [
+      "transform-react-jsx"
+    ]
+  },
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "babel-minify": "^0.5.0",
+    "jquery": "^3.4.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-react": "^6.23.0",
+    "typescript": "^3.9.6"
+  },
+  "type": "module",
+  "files": [
+    "src/*.jsx"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir C:\\Users\\Ray\\source\\repos\\NodejsWebApp1\\WebApplication1\\src"
+  }
+}
